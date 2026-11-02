@@ -1,0 +1,10 @@
+httpx==0.28.1
+idotmatrix==0.0.9
+bleak==3.0.2
+keyboard==0.13.5
+sounddevice==0.5.6
+numpy==2.4.6
+pillow==13.0.0
+# only for the first version, athena_face.py
+faster-whisper==1.2.1
+comtypes==1.4.17
