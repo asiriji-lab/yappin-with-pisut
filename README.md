@@ -42,7 +42,9 @@ venv\Scripts\python face_bridge.py --sprite snoopy-sprite.png --test
 Then:
 
 ```powershell
-venv\Scripts\python talk.py --sprite snoopy-sprite.png
+venv\Scripts\python talk.py                              # the live pixel fox (breathes, blinks, listens, thinks)
+venv\Scripts\python talk.py --sprite snoopy-sprite.png   # Snoopy's mouth frames instead
+venv\Scripts\python talk.py --saturation 1.2 --gamma 1.4 --brightness 60   # LED colour (fox_live.py --tune to pick)
 venv\Scripts\python talk.py --type              # type questions instead of speaking
 venv\Scripts\python talk.py --display off       # sound only
 ```
@@ -55,6 +57,10 @@ Hold **Right Ctrl**, speak, let go. Press it again while Athena is talking to cu
 |---|---|
 | `talk.py` | The main client: push-to-talk, plays Athena's voice, drives the mouth frames on time |
 | `face_bridge.py` | Shows sprite frames on the display over Bluetooth. Also a small HTTP server on :3050 so the web chat page can drive the display |
+| `fox_live.py` | The live fox on the panel: a port of the web fox (`fox/web/atlas.*`, KP's `fox-avatar.js`). `--preview x.gif`, `--panel`, `--tune` (pick the LED colour settings) |
+| `fox_sprite.py` | The pixel fox (`fox/`, drawn at 32x32) -> `fox-sprite.png` in frame order, no resizing: `python fox_sprite.py [emotion]` or `--all` |
+| `fox/` | The pixel fox pack: 15 mouths x 6 emotions + blinks as 32x32 PNGs, Piskel files, sheets, palette, phoneme -> mouth tables (`fox_face_map.json`) |
+| `fox-sprite.png`, `fox-<emotion>-sprite.png` | The built fox strips (10 frames), plus `@8x` and talking GIFs to look at |
 | `viseme_sprite.py` | Turns a character's 9 viseme pictures into a 32x32 sprite strip: `python viseme_sprite.py snoopy` or `hearty` |
 | `snoopy_sprite.py` | The older Snoopy-only version of `viseme_sprite.py` |
 | `snoopy_visemes/`, `hearty_visemes/` | The source pictures, one per mouth shape (256x256 on white) |

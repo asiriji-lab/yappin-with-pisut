@@ -1,0 +1,584 @@
+{
+ "size": 32,
+ "fps": 12,
+ "image": "atlas.png",
+ "layers": {
+  "base": [
+   0,
+   0
+  ],
+  "eyes/neutral": [
+   32,
+   0
+  ],
+  "eyes/neutral_half": [
+   64,
+   0
+  ],
+  "eyes/closed": [
+   96,
+   0
+  ],
+  "eyes/happy": [
+   128,
+   0
+  ],
+  "eyes/sad": [
+   160,
+   0
+  ],
+  "eyes/sad_half": [
+   192,
+   0
+  ],
+  "eyes/sad_closed": [
+   224,
+   0
+  ],
+  "eyes/angry": [
+   256,
+   0
+  ],
+  "eyes/angry_half": [
+   288,
+   0
+  ],
+  "eyes/angry_closed": [
+   320,
+   0
+  ],
+  "eyes/surprised": [
+   352,
+   0
+  ],
+  "eyes/surprised_half": [
+   384,
+   0
+  ],
+  "eyes/thinking": [
+   416,
+   0
+  ],
+  "eyes/thinking_half": [
+   448,
+   0
+  ],
+  "eyes/confused": [
+   480,
+   0
+  ],
+  "eyes/confused_half": [
+   0,
+   32
+  ],
+  "eyes/confused_closed": [
+   32,
+   32
+  ],
+  "eyes/embarrassed": [
+   64,
+   32
+  ],
+  "eyes/embarrassed_half": [
+   96,
+   32
+  ],
+  "eyes/laughing": [
+   128,
+   32
+  ],
+  "eyes/wink": [
+   160,
+   32
+  ],
+  "eyes/sleepy": [
+   192,
+   32
+  ],
+  "eyes/look_left": [
+   224,
+   32
+  ],
+  "eyes/look_right": [
+   256,
+   32
+  ],
+  "eyes/look_up": [
+   288,
+   32
+  ],
+  "eyes/look_down": [
+   320,
+   32
+  ],
+  "eyes/dizzy": [
+   352,
+   32
+  ],
+  "mouths/A": [
+   384,
+   32
+  ],
+  "mouths/O": [
+   416,
+   32
+  ],
+  "mouths/E": [
+   448,
+   32
+  ],
+  "mouths/W_R": [
+   480,
+   32
+  ],
+  "mouths/T_S": [
+   0,
+   64
+  ],
+  "mouths/L_N": [
+   32,
+   64
+  ],
+  "mouths/U_Q": [
+   64,
+   64
+  ],
+  "mouths/M_B_P": [
+   96,
+   64
+  ],
+  "mouths/F_V": [
+   128,
+   64
+  ],
+  "mouths/rest": [
+   160,
+   64
+  ],
+  "mouths/EE_I": [
+   192,
+   64
+  ],
+  "mouths/OO": [
+   224,
+   64
+  ],
+  "mouths/TH": [
+   256,
+   64
+  ],
+  "mouths/CH_SH_J": [
+   288,
+   64
+  ],
+  "mouths/K_G": [
+   320,
+   64
+  ],
+  "mouths/smile": [
+   352,
+   64
+  ],
+  "mouths/frown": [
+   384,
+   64
+  ],
+  "mouths/hmm": [
+   416,
+   64
+  ],
+  "mouths/wavy": [
+   448,
+   64
+  ],
+  "extras/blush": [
+   480,
+   64
+  ],
+  "extras/sweat": [
+   0,
+   96
+  ],
+  "extras/exclaim": [
+   32,
+   96
+  ],
+  "extras/dots1": [
+   64,
+   96
+  ],
+  "extras/dots2": [
+   96,
+   96
+  ],
+  "extras/dots3": [
+   128,
+   96
+  ],
+  "extras/scan1": [
+   160,
+   96
+  ],
+  "extras/scan2": [
+   192,
+   96
+  ],
+  "extras/scan3": [
+   224,
+   96
+  ],
+  "extras/scan4": [
+   256,
+   96
+  ],
+  "extras/scan5": [
+   288,
+   96
+  ],
+  "extras/scan6": [
+   320,
+   96
+  ],
+  "extras/static1": [
+   352,
+   96
+  ],
+  "extras/static2": [
+   384,
+   96
+  ]
+ },
+ "emotions": {
+  "neutral": {
+   "eyes": "neutral",
+   "half": "neutral_half",
+   "closed": "closed",
+   "idle": "rest",
+   "extras": []
+  },
+  "happy": {
+   "eyes": "happy",
+   "half": null,
+   "closed": null,
+   "idle": "smile",
+   "extras": []
+  },
+  "sad": {
+   "eyes": "sad",
+   "half": "sad_half",
+   "closed": "sad_closed",
+   "idle": "frown",
+   "extras": []
+  },
+  "angry": {
+   "eyes": "angry",
+   "half": "angry_half",
+   "closed": "angry_closed",
+   "idle": "F_V",
+   "extras": []
+  },
+  "surprised": {
+   "eyes": "surprised",
+   "half": "surprised_half",
+   "closed": "closed",
+   "idle": "O",
+   "extras": []
+  },
+  "thinking": {
+   "eyes": "thinking",
+   "half": "thinking_half",
+   "closed": "closed",
+   "idle": "hmm",
+   "extras": []
+  },
+  "confused": {
+   "eyes": "confused",
+   "half": "confused_half",
+   "closed": "confused_closed",
+   "idle": "wavy",
+   "extras": []
+  },
+  "embarrassed": {
+   "eyes": "embarrassed",
+   "half": "embarrassed_half",
+   "closed": "sad_closed",
+   "idle": "smile",
+   "extras": [
+    "blush"
+   ]
+  },
+  "laughing": {
+   "eyes": "laughing",
+   "half": null,
+   "closed": null,
+   "idle": "A",
+   "extras": []
+  },
+  "wink": {
+   "eyes": "wink",
+   "half": null,
+   "closed": null,
+   "idle": "smile",
+   "extras": []
+  },
+  "sleepy": {
+   "eyes": "sleepy",
+   "half": null,
+   "closed": "closed",
+   "idle": "rest",
+   "extras": []
+  },
+  "sorry": {
+   "eyes": "sad",
+   "half": "sad_half",
+   "closed": "sad_closed",
+   "idle": "wavy",
+   "extras": [
+    "sweat"
+   ]
+  },
+  "error": {
+   "eyes": "dizzy",
+   "half": null,
+   "closed": "closed",
+   "idle": "wavy",
+   "extras": []
+  }
+ },
+ "speech_mouths": [
+  "A",
+  "O",
+  "E",
+  "W_R",
+  "T_S",
+  "L_N",
+  "U_Q",
+  "M_B_P",
+  "F_V",
+  "rest",
+  "EE_I",
+  "OO",
+  "TH",
+  "CH_SH_J",
+  "K_G"
+ ],
+ "maps": {
+  "arpabet": {
+   "AA": [
+    "A"
+   ],
+   "AE": [
+    "A"
+   ],
+   "AH": [
+    "A"
+   ],
+   "AO": [
+    "O"
+   ],
+   "AW": [
+    "A",
+    "OO"
+   ],
+   "AY": [
+    "A",
+    "EE_I"
+   ],
+   "EH": [
+    "E"
+   ],
+   "ER": [
+    "W_R"
+   ],
+   "EY": [
+    "E",
+    "EE_I"
+   ],
+   "IH": [
+    "EE_I"
+   ],
+   "IY": [
+    "EE_I"
+   ],
+   "OW": [
+    "O",
+    "OO"
+   ],
+   "OY": [
+    "O",
+    "EE_I"
+   ],
+   "UH": [
+    "OO"
+   ],
+   "UW": [
+    "U_Q"
+   ],
+   "B": [
+    "M_B_P"
+   ],
+   "M": [
+    "M_B_P"
+   ],
+   "P": [
+    "M_B_P"
+   ],
+   "F": [
+    "F_V"
+   ],
+   "V": [
+    "F_V"
+   ],
+   "TH": [
+    "TH"
+   ],
+   "DH": [
+    "TH"
+   ],
+   "T": [
+    "T_S"
+   ],
+   "D": [
+    "T_S"
+   ],
+   "S": [
+    "T_S"
+   ],
+   "Z": [
+    "T_S"
+   ],
+   "L": [
+    "L_N"
+   ],
+   "N": [
+    "L_N"
+   ],
+   "K": [
+    "K_G"
+   ],
+   "G": [
+    "K_G"
+   ],
+   "NG": [
+    "K_G"
+   ],
+   "HH": [
+    "K_G"
+   ],
+   "CH": [
+    "CH_SH_J"
+   ],
+   "JH": [
+    "CH_SH_J"
+   ],
+   "SH": [
+    "CH_SH_J"
+   ],
+   "ZH": [
+    "CH_SH_J"
+   ],
+   "W": [
+    "W_R"
+   ],
+   "R": [
+    "W_R"
+   ],
+   "Y": [
+    "EE_I"
+   ]
+  },
+  "azure": {
+   "0": "rest",
+   "1": "A",
+   "2": "A",
+   "3": "O",
+   "4": "E",
+   "5": "W_R",
+   "6": "EE_I",
+   "7": "U_Q",
+   "8": "O",
+   "9": "A",
+   "10": "O",
+   "11": "A",
+   "12": "K_G",
+   "13": "W_R",
+   "14": "L_N",
+   "15": "T_S",
+   "16": "CH_SH_J",
+   "17": "TH",
+   "18": "F_V",
+   "19": "T_S",
+   "20": "K_G",
+   "21": "M_B_P"
+  },
+  "polly": {
+   "sil": "rest",
+   "p": "M_B_P",
+   "t": "T_S",
+   "S": "CH_SH_J",
+   "T": "TH",
+   "f": "F_V",
+   "k": "K_G",
+   "i": "EE_I",
+   "r": "W_R",
+   "s": "T_S",
+   "u": "U_Q",
+   "@": "A",
+   "a": "A",
+   "e": "E",
+   "E": "W_R",
+   "o": "O",
+   "O": "O"
+  },
+  "rhubarb": {
+   "A": "M_B_P",
+   "B": "T_S",
+   "C": "E",
+   "D": "A",
+   "E": "O",
+   "F": "OO",
+   "G": "F_V",
+   "H": "L_N",
+   "X": "rest"
+  },
+  "viseme15": {
+   "sil": "rest",
+   "PP": "M_B_P",
+   "FF": "F_V",
+   "TH": "TH",
+   "DD": "T_S",
+   "kk": "K_G",
+   "CH": "CH_SH_J",
+   "SS": "T_S",
+   "nn": "L_N",
+   "RR": "W_R",
+   "aa": "A",
+   "E": "E",
+   "ih": "EE_I",
+   "oh": "O",
+   "ou": "U_Q"
+  }
+ },
+ "emotion_rules": [
+  [
+   "\\b(sorry|apologi[sz]e|unfortunately|couldn'?t find|could not find|can'?t find|cannot find|no (relevant )?(results|information|documents|sources)|not (mentioned |covered )?in the (documents|sources|knowledge base)|i don'?t (know|have)|i'?m unable|unable to)\\b",
+   "sorry"
+  ],
+  [
+   "\\b(not sure|unclear|ambiguous|could you clarify|did you mean|do you mean)\\b",
+   "confused"
+  ],
+  [
+   "^\\s*(hi|hello|hey|good (morning|afternoon|evening))\\b|\\b(thank you|thanks|you'?re welcome|happy to help|glad|great question)\\b",
+   "happy"
+  ],
+  [
+   "\\b(wow|amazing|surprisingly|interestingly)\\b",
+   "surprised"
+  ],
+  [
+   "\\?\\s*$",
+   "thinking"
+  ]
+ ]
+}

@@ -1,0 +1,1407 @@
+{
+  "frame_size": [
+    32,
+    32
+  ],
+  "how_to_use": "Pick the emotion, then for each sound show png/<emotion>/fox_<emotion>_<mouth>.png. Use the idle face when silent and the blink frames (half, closed, half) every few seconds. say.py does this from text.",
+  "emotions": {
+    "neutral": {
+      "eyes": "neutral",
+      "idle_mouth": "rest",
+      "files": {
+        "fox_neutral_A": {
+          "png": "png/neutral/fox_neutral_A.png",
+          "piskel": "piskel/neutral/fox_neutral_A.piskel",
+          "kind": "talk",
+          "mouth": "A",
+          "sheet": {
+            "file": "sheets/fox_neutral_sheet.png",
+            "x": 0,
+            "y": 0
+          }
+        },
+        "fox_neutral_O": {
+          "png": "png/neutral/fox_neutral_O.png",
+          "piskel": "piskel/neutral/fox_neutral_O.piskel",
+          "kind": "talk",
+          "mouth": "O",
+          "sheet": {
+            "file": "sheets/fox_neutral_sheet.png",
+            "x": 32,
+            "y": 0
+          }
+        },
+        "fox_neutral_E": {
+          "png": "png/neutral/fox_neutral_E.png",
+          "piskel": "piskel/neutral/fox_neutral_E.piskel",
+          "kind": "talk",
+          "mouth": "E",
+          "sheet": {
+            "file": "sheets/fox_neutral_sheet.png",
+            "x": 64,
+            "y": 0
+          }
+        },
+        "fox_neutral_W_R": {
+          "png": "png/neutral/fox_neutral_W_R.png",
+          "piskel": "piskel/neutral/fox_neutral_W_R.piskel",
+          "kind": "talk",
+          "mouth": "W, R",
+          "sheet": {
+            "file": "sheets/fox_neutral_sheet.png",
+            "x": 96,
+            "y": 0
+          }
+        },
+        "fox_neutral_T_S": {
+          "png": "png/neutral/fox_neutral_T_S.png",
+          "piskel": "piskel/neutral/fox_neutral_T_S.piskel",
+          "kind": "talk",
+          "mouth": "T, S",
+          "sheet": {
+            "file": "sheets/fox_neutral_sheet.png",
+            "x": 128,
+            "y": 0
+          }
+        },
+        "fox_neutral_L_N": {
+          "png": "png/neutral/fox_neutral_L_N.png",
+          "piskel": "piskel/neutral/fox_neutral_L_N.piskel",
+          "kind": "talk",
+          "mouth": "L, N",
+          "sheet": {
+            "file": "sheets/fox_neutral_sheet.png",
+            "x": 160,
+            "y": 0
+          }
+        },
+        "fox_neutral_U_Q": {
+          "png": "png/neutral/fox_neutral_U_Q.png",
+          "piskel": "piskel/neutral/fox_neutral_U_Q.piskel",
+          "kind": "talk",
+          "mouth": "U, Q",
+          "sheet": {
+            "file": "sheets/fox_neutral_sheet.png",
+            "x": 0,
+            "y": 32
+          }
+        },
+        "fox_neutral_M_B_P": {
+          "png": "png/neutral/fox_neutral_M_B_P.png",
+          "piskel": "piskel/neutral/fox_neutral_M_B_P.piskel",
+          "kind": "talk",
+          "mouth": "M, B, P",
+          "sheet": {
+            "file": "sheets/fox_neutral_sheet.png",
+            "x": 32,
+            "y": 32
+          }
+        },
+        "fox_neutral_F_V": {
+          "png": "png/neutral/fox_neutral_F_V.png",
+          "piskel": "piskel/neutral/fox_neutral_F_V.piskel",
+          "kind": "talk",
+          "mouth": "F, V",
+          "sheet": {
+            "file": "sheets/fox_neutral_sheet.png",
+            "x": 64,
+            "y": 32
+          }
+        },
+        "fox_neutral_rest": {
+          "png": "png/neutral/fox_neutral_rest.png",
+          "piskel": "piskel/neutral/fox_neutral_rest.piskel",
+          "kind": "talk",
+          "mouth": "rest",
+          "sheet": {
+            "file": "sheets/fox_neutral_sheet.png",
+            "x": 96,
+            "y": 32
+          }
+        },
+        "fox_neutral_EE_I": {
+          "png": "png/neutral/fox_neutral_EE_I.png",
+          "piskel": "piskel/neutral/fox_neutral_EE_I.piskel",
+          "kind": "talk",
+          "mouth": "EE, I",
+          "sheet": {
+            "file": "sheets/fox_neutral_sheet.png",
+            "x": 128,
+            "y": 32
+          }
+        },
+        "fox_neutral_OO": {
+          "png": "png/neutral/fox_neutral_OO.png",
+          "piskel": "piskel/neutral/fox_neutral_OO.piskel",
+          "kind": "talk",
+          "mouth": "OO",
+          "sheet": {
+            "file": "sheets/fox_neutral_sheet.png",
+            "x": 160,
+            "y": 32
+          }
+        },
+        "fox_neutral_TH": {
+          "png": "png/neutral/fox_neutral_TH.png",
+          "piskel": "piskel/neutral/fox_neutral_TH.piskel",
+          "kind": "talk",
+          "mouth": "TH",
+          "sheet": {
+            "file": "sheets/fox_neutral_sheet.png",
+            "x": 0,
+            "y": 64
+          }
+        },
+        "fox_neutral_CH_SH_J": {
+          "png": "png/neutral/fox_neutral_CH_SH_J.png",
+          "piskel": "piskel/neutral/fox_neutral_CH_SH_J.piskel",
+          "kind": "talk",
+          "mouth": "CH, SH, J",
+          "sheet": {
+            "file": "sheets/fox_neutral_sheet.png",
+            "x": 32,
+            "y": 64
+          }
+        },
+        "fox_neutral_K_G": {
+          "png": "png/neutral/fox_neutral_K_G.png",
+          "piskel": "piskel/neutral/fox_neutral_K_G.piskel",
+          "kind": "talk",
+          "mouth": "K, G",
+          "sheet": {
+            "file": "sheets/fox_neutral_sheet.png",
+            "x": 64,
+            "y": 64
+          }
+        },
+        "fox_neutral_idle": {
+          "png": "png/neutral/fox_neutral_idle.png",
+          "piskel": "piskel/neutral/fox_neutral_idle.piskel",
+          "kind": "idle",
+          "mouth": "rest",
+          "sheet": {
+            "file": "sheets/fox_neutral_sheet.png",
+            "x": 96,
+            "y": 64
+          }
+        },
+        "fox_neutral_blink_half": {
+          "png": "png/neutral/fox_neutral_blink_half.png",
+          "piskel": "piskel/neutral/fox_neutral_blink_half.piskel",
+          "kind": "blink_half",
+          "mouth": "rest",
+          "sheet": {
+            "file": "sheets/fox_neutral_sheet.png",
+            "x": 128,
+            "y": 64
+          }
+        },
+        "fox_neutral_blink_closed": {
+          "png": "png/neutral/fox_neutral_blink_closed.png",
+          "piskel": "piskel/neutral/fox_neutral_blink_closed.piskel",
+          "kind": "blink_closed",
+          "mouth": "rest",
+          "sheet": {
+            "file": "sheets/fox_neutral_sheet.png",
+            "x": 160,
+            "y": 64
+          }
+        }
+      }
+    },
+    "happy": {
+      "eyes": "happy",
+      "idle_mouth": "smile",
+      "files": {
+        "fox_happy_A": {
+          "png": "png/happy/fox_happy_A.png",
+          "piskel": "piskel/happy/fox_happy_A.piskel",
+          "kind": "talk",
+          "mouth": "A",
+          "sheet": {
+            "file": "sheets/fox_happy_sheet.png",
+            "x": 0,
+            "y": 0
+          }
+        },
+        "fox_happy_O": {
+          "png": "png/happy/fox_happy_O.png",
+          "piskel": "piskel/happy/fox_happy_O.piskel",
+          "kind": "talk",
+          "mouth": "O",
+          "sheet": {
+            "file": "sheets/fox_happy_sheet.png",
+            "x": 32,
+            "y": 0
+          }
+        },
+        "fox_happy_E": {
+          "png": "png/happy/fox_happy_E.png",
+          "piskel": "piskel/happy/fox_happy_E.piskel",
+          "kind": "talk",
+          "mouth": "E",
+          "sheet": {
+            "file": "sheets/fox_happy_sheet.png",
+            "x": 64,
+            "y": 0
+          }
+        },
+        "fox_happy_W_R": {
+          "png": "png/happy/fox_happy_W_R.png",
+          "piskel": "piskel/happy/fox_happy_W_R.piskel",
+          "kind": "talk",
+          "mouth": "W, R",
+          "sheet": {
+            "file": "sheets/fox_happy_sheet.png",
+            "x": 96,
+            "y": 0
+          }
+        },
+        "fox_happy_T_S": {
+          "png": "png/happy/fox_happy_T_S.png",
+          "piskel": "piskel/happy/fox_happy_T_S.piskel",
+          "kind": "talk",
+          "mouth": "T, S",
+          "sheet": {
+            "file": "sheets/fox_happy_sheet.png",
+            "x": 128,
+            "y": 0
+          }
+        },
+        "fox_happy_L_N": {
+          "png": "png/happy/fox_happy_L_N.png",
+          "piskel": "piskel/happy/fox_happy_L_N.piskel",
+          "kind": "talk",
+          "mouth": "L, N",
+          "sheet": {
+            "file": "sheets/fox_happy_sheet.png",
+            "x": 160,
+            "y": 0
+          }
+        },
+        "fox_happy_U_Q": {
+          "png": "png/happy/fox_happy_U_Q.png",
+          "piskel": "piskel/happy/fox_happy_U_Q.piskel",
+          "kind": "talk",
+          "mouth": "U, Q",
+          "sheet": {
+            "file": "sheets/fox_happy_sheet.png",
+            "x": 0,
+            "y": 32
+          }
+        },
+        "fox_happy_M_B_P": {
+          "png": "png/happy/fox_happy_M_B_P.png",
+          "piskel": "piskel/happy/fox_happy_M_B_P.piskel",
+          "kind": "talk",
+          "mouth": "M, B, P",
+          "sheet": {
+            "file": "sheets/fox_happy_sheet.png",
+            "x": 32,
+            "y": 32
+          }
+        },
+        "fox_happy_F_V": {
+          "png": "png/happy/fox_happy_F_V.png",
+          "piskel": "piskel/happy/fox_happy_F_V.piskel",
+          "kind": "talk",
+          "mouth": "F, V",
+          "sheet": {
+            "file": "sheets/fox_happy_sheet.png",
+            "x": 64,
+            "y": 32
+          }
+        },
+        "fox_happy_rest": {
+          "png": "png/happy/fox_happy_rest.png",
+          "piskel": "piskel/happy/fox_happy_rest.piskel",
+          "kind": "talk",
+          "mouth": "rest",
+          "sheet": {
+            "file": "sheets/fox_happy_sheet.png",
+            "x": 96,
+            "y": 32
+          }
+        },
+        "fox_happy_EE_I": {
+          "png": "png/happy/fox_happy_EE_I.png",
+          "piskel": "piskel/happy/fox_happy_EE_I.piskel",
+          "kind": "talk",
+          "mouth": "EE, I",
+          "sheet": {
+            "file": "sheets/fox_happy_sheet.png",
+            "x": 128,
+            "y": 32
+          }
+        },
+        "fox_happy_OO": {
+          "png": "png/happy/fox_happy_OO.png",
+          "piskel": "piskel/happy/fox_happy_OO.piskel",
+          "kind": "talk",
+          "mouth": "OO",
+          "sheet": {
+            "file": "sheets/fox_happy_sheet.png",
+            "x": 160,
+            "y": 32
+          }
+        },
+        "fox_happy_TH": {
+          "png": "png/happy/fox_happy_TH.png",
+          "piskel": "piskel/happy/fox_happy_TH.piskel",
+          "kind": "talk",
+          "mouth": "TH",
+          "sheet": {
+            "file": "sheets/fox_happy_sheet.png",
+            "x": 0,
+            "y": 64
+          }
+        },
+        "fox_happy_CH_SH_J": {
+          "png": "png/happy/fox_happy_CH_SH_J.png",
+          "piskel": "piskel/happy/fox_happy_CH_SH_J.piskel",
+          "kind": "talk",
+          "mouth": "CH, SH, J",
+          "sheet": {
+            "file": "sheets/fox_happy_sheet.png",
+            "x": 32,
+            "y": 64
+          }
+        },
+        "fox_happy_K_G": {
+          "png": "png/happy/fox_happy_K_G.png",
+          "piskel": "piskel/happy/fox_happy_K_G.piskel",
+          "kind": "talk",
+          "mouth": "K, G",
+          "sheet": {
+            "file": "sheets/fox_happy_sheet.png",
+            "x": 64,
+            "y": 64
+          }
+        },
+        "fox_happy_idle": {
+          "png": "png/happy/fox_happy_idle.png",
+          "piskel": "piskel/happy/fox_happy_idle.piskel",
+          "kind": "idle",
+          "mouth": "smile",
+          "sheet": {
+            "file": "sheets/fox_happy_sheet.png",
+            "x": 96,
+            "y": 64
+          }
+        }
+      }
+    },
+    "sad": {
+      "eyes": "sad",
+      "idle_mouth": "frown",
+      "files": {
+        "fox_sad_A": {
+          "png": "png/sad/fox_sad_A.png",
+          "piskel": "piskel/sad/fox_sad_A.piskel",
+          "kind": "talk",
+          "mouth": "A",
+          "sheet": {
+            "file": "sheets/fox_sad_sheet.png",
+            "x": 0,
+            "y": 0
+          }
+        },
+        "fox_sad_O": {
+          "png": "png/sad/fox_sad_O.png",
+          "piskel": "piskel/sad/fox_sad_O.piskel",
+          "kind": "talk",
+          "mouth": "O",
+          "sheet": {
+            "file": "sheets/fox_sad_sheet.png",
+            "x": 32,
+            "y": 0
+          }
+        },
+        "fox_sad_E": {
+          "png": "png/sad/fox_sad_E.png",
+          "piskel": "piskel/sad/fox_sad_E.piskel",
+          "kind": "talk",
+          "mouth": "E",
+          "sheet": {
+            "file": "sheets/fox_sad_sheet.png",
+            "x": 64,
+            "y": 0
+          }
+        },
+        "fox_sad_W_R": {
+          "png": "png/sad/fox_sad_W_R.png",
+          "piskel": "piskel/sad/fox_sad_W_R.piskel",
+          "kind": "talk",
+          "mouth": "W, R",
+          "sheet": {
+            "file": "sheets/fox_sad_sheet.png",
+            "x": 96,
+            "y": 0
+          }
+        },
+        "fox_sad_T_S": {
+          "png": "png/sad/fox_sad_T_S.png",
+          "piskel": "piskel/sad/fox_sad_T_S.piskel",
+          "kind": "talk",
+          "mouth": "T, S",
+          "sheet": {
+            "file": "sheets/fox_sad_sheet.png",
+            "x": 128,
+            "y": 0
+          }
+        },
+        "fox_sad_L_N": {
+          "png": "png/sad/fox_sad_L_N.png",
+          "piskel": "piskel/sad/fox_sad_L_N.piskel",
+          "kind": "talk",
+          "mouth": "L, N",
+          "sheet": {
+            "file": "sheets/fox_sad_sheet.png",
+            "x": 160,
+            "y": 0
+          }
+        },
+        "fox_sad_U_Q": {
+          "png": "png/sad/fox_sad_U_Q.png",
+          "piskel": "piskel/sad/fox_sad_U_Q.piskel",
+          "kind": "talk",
+          "mouth": "U, Q",
+          "sheet": {
+            "file": "sheets/fox_sad_sheet.png",
+            "x": 0,
+            "y": 32
+          }
+        },
+        "fox_sad_M_B_P": {
+          "png": "png/sad/fox_sad_M_B_P.png",
+          "piskel": "piskel/sad/fox_sad_M_B_P.piskel",
+          "kind": "talk",
+          "mouth": "M, B, P",
+          "sheet": {
+            "file": "sheets/fox_sad_sheet.png",
+            "x": 32,
+            "y": 32
+          }
+        },
+        "fox_sad_F_V": {
+          "png": "png/sad/fox_sad_F_V.png",
+          "piskel": "piskel/sad/fox_sad_F_V.piskel",
+          "kind": "talk",
+          "mouth": "F, V",
+          "sheet": {
+            "file": "sheets/fox_sad_sheet.png",
+            "x": 64,
+            "y": 32
+          }
+        },
+        "fox_sad_rest": {
+          "png": "png/sad/fox_sad_rest.png",
+          "piskel": "piskel/sad/fox_sad_rest.piskel",
+          "kind": "talk",
+          "mouth": "rest",
+          "sheet": {
+            "file": "sheets/fox_sad_sheet.png",
+            "x": 96,
+            "y": 32
+          }
+        },
+        "fox_sad_EE_I": {
+          "png": "png/sad/fox_sad_EE_I.png",
+          "piskel": "piskel/sad/fox_sad_EE_I.piskel",
+          "kind": "talk",
+          "mouth": "EE, I",
+          "sheet": {
+            "file": "sheets/fox_sad_sheet.png",
+            "x": 128,
+            "y": 32
+          }
+        },
+        "fox_sad_OO": {
+          "png": "png/sad/fox_sad_OO.png",
+          "piskel": "piskel/sad/fox_sad_OO.piskel",
+          "kind": "talk",
+          "mouth": "OO",
+          "sheet": {
+            "file": "sheets/fox_sad_sheet.png",
+            "x": 160,
+            "y": 32
+          }
+        },
+        "fox_sad_TH": {
+          "png": "png/sad/fox_sad_TH.png",
+          "piskel": "piskel/sad/fox_sad_TH.piskel",
+          "kind": "talk",
+          "mouth": "TH",
+          "sheet": {
+            "file": "sheets/fox_sad_sheet.png",
+            "x": 0,
+            "y": 64
+          }
+        },
+        "fox_sad_CH_SH_J": {
+          "png": "png/sad/fox_sad_CH_SH_J.png",
+          "piskel": "piskel/sad/fox_sad_CH_SH_J.piskel",
+          "kind": "talk",
+          "mouth": "CH, SH, J",
+          "sheet": {
+            "file": "sheets/fox_sad_sheet.png",
+            "x": 32,
+            "y": 64
+          }
+        },
+        "fox_sad_K_G": {
+          "png": "png/sad/fox_sad_K_G.png",
+          "piskel": "piskel/sad/fox_sad_K_G.piskel",
+          "kind": "talk",
+          "mouth": "K, G",
+          "sheet": {
+            "file": "sheets/fox_sad_sheet.png",
+            "x": 64,
+            "y": 64
+          }
+        },
+        "fox_sad_idle": {
+          "png": "png/sad/fox_sad_idle.png",
+          "piskel": "piskel/sad/fox_sad_idle.piskel",
+          "kind": "idle",
+          "mouth": "frown",
+          "sheet": {
+            "file": "sheets/fox_sad_sheet.png",
+            "x": 96,
+            "y": 64
+          }
+        },
+        "fox_sad_blink_half": {
+          "png": "png/sad/fox_sad_blink_half.png",
+          "piskel": "piskel/sad/fox_sad_blink_half.piskel",
+          "kind": "blink_half",
+          "mouth": "frown",
+          "sheet": {
+            "file": "sheets/fox_sad_sheet.png",
+            "x": 128,
+            "y": 64
+          }
+        },
+        "fox_sad_blink_closed": {
+          "png": "png/sad/fox_sad_blink_closed.png",
+          "piskel": "piskel/sad/fox_sad_blink_closed.piskel",
+          "kind": "blink_closed",
+          "mouth": "frown",
+          "sheet": {
+            "file": "sheets/fox_sad_sheet.png",
+            "x": 160,
+            "y": 64
+          }
+        }
+      }
+    },
+    "angry": {
+      "eyes": "angry",
+      "idle_mouth": "F, V",
+      "files": {
+        "fox_angry_A": {
+          "png": "png/angry/fox_angry_A.png",
+          "piskel": "piskel/angry/fox_angry_A.piskel",
+          "kind": "talk",
+          "mouth": "A",
+          "sheet": {
+            "file": "sheets/fox_angry_sheet.png",
+            "x": 0,
+            "y": 0
+          }
+        },
+        "fox_angry_O": {
+          "png": "png/angry/fox_angry_O.png",
+          "piskel": "piskel/angry/fox_angry_O.piskel",
+          "kind": "talk",
+          "mouth": "O",
+          "sheet": {
+            "file": "sheets/fox_angry_sheet.png",
+            "x": 32,
+            "y": 0
+          }
+        },
+        "fox_angry_E": {
+          "png": "png/angry/fox_angry_E.png",
+          "piskel": "piskel/angry/fox_angry_E.piskel",
+          "kind": "talk",
+          "mouth": "E",
+          "sheet": {
+            "file": "sheets/fox_angry_sheet.png",
+            "x": 64,
+            "y": 0
+          }
+        },
+        "fox_angry_W_R": {
+          "png": "png/angry/fox_angry_W_R.png",
+          "piskel": "piskel/angry/fox_angry_W_R.piskel",
+          "kind": "talk",
+          "mouth": "W, R",
+          "sheet": {
+            "file": "sheets/fox_angry_sheet.png",
+            "x": 96,
+            "y": 0
+          }
+        },
+        "fox_angry_T_S": {
+          "png": "png/angry/fox_angry_T_S.png",
+          "piskel": "piskel/angry/fox_angry_T_S.piskel",
+          "kind": "talk",
+          "mouth": "T, S",
+          "sheet": {
+            "file": "sheets/fox_angry_sheet.png",
+            "x": 128,
+            "y": 0
+          }
+        },
+        "fox_angry_L_N": {
+          "png": "png/angry/fox_angry_L_N.png",
+          "piskel": "piskel/angry/fox_angry_L_N.piskel",
+          "kind": "talk",
+          "mouth": "L, N",
+          "sheet": {
+            "file": "sheets/fox_angry_sheet.png",
+            "x": 160,
+            "y": 0
+          }
+        },
+        "fox_angry_U_Q": {
+          "png": "png/angry/fox_angry_U_Q.png",
+          "piskel": "piskel/angry/fox_angry_U_Q.piskel",
+          "kind": "talk",
+          "mouth": "U, Q",
+          "sheet": {
+            "file": "sheets/fox_angry_sheet.png",
+            "x": 0,
+            "y": 32
+          }
+        },
+        "fox_angry_M_B_P": {
+          "png": "png/angry/fox_angry_M_B_P.png",
+          "piskel": "piskel/angry/fox_angry_M_B_P.piskel",
+          "kind": "talk",
+          "mouth": "M, B, P",
+          "sheet": {
+            "file": "sheets/fox_angry_sheet.png",
+            "x": 32,
+            "y": 32
+          }
+        },
+        "fox_angry_F_V": {
+          "png": "png/angry/fox_angry_F_V.png",
+          "piskel": "piskel/angry/fox_angry_F_V.piskel",
+          "kind": "talk",
+          "mouth": "F, V",
+          "sheet": {
+            "file": "sheets/fox_angry_sheet.png",
+            "x": 64,
+            "y": 32
+          }
+        },
+        "fox_angry_rest": {
+          "png": "png/angry/fox_angry_rest.png",
+          "piskel": "piskel/angry/fox_angry_rest.piskel",
+          "kind": "talk",
+          "mouth": "rest",
+          "sheet": {
+            "file": "sheets/fox_angry_sheet.png",
+            "x": 96,
+            "y": 32
+          }
+        },
+        "fox_angry_EE_I": {
+          "png": "png/angry/fox_angry_EE_I.png",
+          "piskel": "piskel/angry/fox_angry_EE_I.piskel",
+          "kind": "talk",
+          "mouth": "EE, I",
+          "sheet": {
+            "file": "sheets/fox_angry_sheet.png",
+            "x": 128,
+            "y": 32
+          }
+        },
+        "fox_angry_OO": {
+          "png": "png/angry/fox_angry_OO.png",
+          "piskel": "piskel/angry/fox_angry_OO.piskel",
+          "kind": "talk",
+          "mouth": "OO",
+          "sheet": {
+            "file": "sheets/fox_angry_sheet.png",
+            "x": 160,
+            "y": 32
+          }
+        },
+        "fox_angry_TH": {
+          "png": "png/angry/fox_angry_TH.png",
+          "piskel": "piskel/angry/fox_angry_TH.piskel",
+          "kind": "talk",
+          "mouth": "TH",
+          "sheet": {
+            "file": "sheets/fox_angry_sheet.png",
+            "x": 0,
+            "y": 64
+          }
+        },
+        "fox_angry_CH_SH_J": {
+          "png": "png/angry/fox_angry_CH_SH_J.png",
+          "piskel": "piskel/angry/fox_angry_CH_SH_J.piskel",
+          "kind": "talk",
+          "mouth": "CH, SH, J",
+          "sheet": {
+            "file": "sheets/fox_angry_sheet.png",
+            "x": 32,
+            "y": 64
+          }
+        },
+        "fox_angry_K_G": {
+          "png": "png/angry/fox_angry_K_G.png",
+          "piskel": "piskel/angry/fox_angry_K_G.piskel",
+          "kind": "talk",
+          "mouth": "K, G",
+          "sheet": {
+            "file": "sheets/fox_angry_sheet.png",
+            "x": 64,
+            "y": 64
+          }
+        },
+        "fox_angry_idle": {
+          "png": "png/angry/fox_angry_idle.png",
+          "piskel": "piskel/angry/fox_angry_idle.piskel",
+          "kind": "idle",
+          "mouth": "F, V",
+          "sheet": {
+            "file": "sheets/fox_angry_sheet.png",
+            "x": 96,
+            "y": 64
+          }
+        },
+        "fox_angry_blink_half": {
+          "png": "png/angry/fox_angry_blink_half.png",
+          "piskel": "piskel/angry/fox_angry_blink_half.piskel",
+          "kind": "blink_half",
+          "mouth": "F, V",
+          "sheet": {
+            "file": "sheets/fox_angry_sheet.png",
+            "x": 128,
+            "y": 64
+          }
+        },
+        "fox_angry_blink_closed": {
+          "png": "png/angry/fox_angry_blink_closed.png",
+          "piskel": "piskel/angry/fox_angry_blink_closed.piskel",
+          "kind": "blink_closed",
+          "mouth": "F, V",
+          "sheet": {
+            "file": "sheets/fox_angry_sheet.png",
+            "x": 160,
+            "y": 64
+          }
+        }
+      }
+    },
+    "surprised": {
+      "eyes": "surprised",
+      "idle_mouth": "O",
+      "files": {
+        "fox_surprised_A": {
+          "png": "png/surprised/fox_surprised_A.png",
+          "piskel": "piskel/surprised/fox_surprised_A.piskel",
+          "kind": "talk",
+          "mouth": "A",
+          "sheet": {
+            "file": "sheets/fox_surprised_sheet.png",
+            "x": 0,
+            "y": 0
+          }
+        },
+        "fox_surprised_O": {
+          "png": "png/surprised/fox_surprised_O.png",
+          "piskel": "piskel/surprised/fox_surprised_O.piskel",
+          "kind": "talk",
+          "mouth": "O",
+          "sheet": {
+            "file": "sheets/fox_surprised_sheet.png",
+            "x": 32,
+            "y": 0
+          }
+        },
+        "fox_surprised_E": {
+          "png": "png/surprised/fox_surprised_E.png",
+          "piskel": "piskel/surprised/fox_surprised_E.piskel",
+          "kind": "talk",
+          "mouth": "E",
+          "sheet": {
+            "file": "sheets/fox_surprised_sheet.png",
+            "x": 64,
+            "y": 0
+          }
+        },
+        "fox_surprised_W_R": {
+          "png": "png/surprised/fox_surprised_W_R.png",
+          "piskel": "piskel/surprised/fox_surprised_W_R.piskel",
+          "kind": "talk",
+          "mouth": "W, R",
+          "sheet": {
+            "file": "sheets/fox_surprised_sheet.png",
+            "x": 96,
+            "y": 0
+          }
+        },
+        "fox_surprised_T_S": {
+          "png": "png/surprised/fox_surprised_T_S.png",
+          "piskel": "piskel/surprised/fox_surprised_T_S.piskel",
+          "kind": "talk",
+          "mouth": "T, S",
+          "sheet": {
+            "file": "sheets/fox_surprised_sheet.png",
+            "x": 128,
+            "y": 0
+          }
+        },
+        "fox_surprised_L_N": {
+          "png": "png/surprised/fox_surprised_L_N.png",
+          "piskel": "piskel/surprised/fox_surprised_L_N.piskel",
+          "kind": "talk",
+          "mouth": "L, N",
+          "sheet": {
+            "file": "sheets/fox_surprised_sheet.png",
+            "x": 160,
+            "y": 0
+          }
+        },
+        "fox_surprised_U_Q": {
+          "png": "png/surprised/fox_surprised_U_Q.png",
+          "piskel": "piskel/surprised/fox_surprised_U_Q.piskel",
+          "kind": "talk",
+          "mouth": "U, Q",
+          "sheet": {
+            "file": "sheets/fox_surprised_sheet.png",
+            "x": 0,
+            "y": 32
+          }
+        },
+        "fox_surprised_M_B_P": {
+          "png": "png/surprised/fox_surprised_M_B_P.png",
+          "piskel": "piskel/surprised/fox_surprised_M_B_P.piskel",
+          "kind": "talk",
+          "mouth": "M, B, P",
+          "sheet": {
+            "file": "sheets/fox_surprised_sheet.png",
+            "x": 32,
+            "y": 32
+          }
+        },
+        "fox_surprised_F_V": {
+          "png": "png/surprised/fox_surprised_F_V.png",
+          "piskel": "piskel/surprised/fox_surprised_F_V.piskel",
+          "kind": "talk",
+          "mouth": "F, V",
+          "sheet": {
+            "file": "sheets/fox_surprised_sheet.png",
+            "x": 64,
+            "y": 32
+          }
+        },
+        "fox_surprised_rest": {
+          "png": "png/surprised/fox_surprised_rest.png",
+          "piskel": "piskel/surprised/fox_surprised_rest.piskel",
+          "kind": "talk",
+          "mouth": "rest",
+          "sheet": {
+            "file": "sheets/fox_surprised_sheet.png",
+            "x": 96,
+            "y": 32
+          }
+        },
+        "fox_surprised_EE_I": {
+          "png": "png/surprised/fox_surprised_EE_I.png",
+          "piskel": "piskel/surprised/fox_surprised_EE_I.piskel",
+          "kind": "talk",
+          "mouth": "EE, I",
+          "sheet": {
+            "file": "sheets/fox_surprised_sheet.png",
+            "x": 128,
+            "y": 32
+          }
+        },
+        "fox_surprised_OO": {
+          "png": "png/surprised/fox_surprised_OO.png",
+          "piskel": "piskel/surprised/fox_surprised_OO.piskel",
+          "kind": "talk",
+          "mouth": "OO",
+          "sheet": {
+            "file": "sheets/fox_surprised_sheet.png",
+            "x": 160,
+            "y": 32
+          }
+        },
+        "fox_surprised_TH": {
+          "png": "png/surprised/fox_surprised_TH.png",
+          "piskel": "piskel/surprised/fox_surprised_TH.piskel",
+          "kind": "talk",
+          "mouth": "TH",
+          "sheet": {
+            "file": "sheets/fox_surprised_sheet.png",
+            "x": 0,
+            "y": 64
+          }
+        },
+        "fox_surprised_CH_SH_J": {
+          "png": "png/surprised/fox_surprised_CH_SH_J.png",
+          "piskel": "piskel/surprised/fox_surprised_CH_SH_J.piskel",
+          "kind": "talk",
+          "mouth": "CH, SH, J",
+          "sheet": {
+            "file": "sheets/fox_surprised_sheet.png",
+            "x": 32,
+            "y": 64
+          }
+        },
+        "fox_surprised_K_G": {
+          "png": "png/surprised/fox_surprised_K_G.png",
+          "piskel": "piskel/surprised/fox_surprised_K_G.piskel",
+          "kind": "talk",
+          "mouth": "K, G",
+          "sheet": {
+            "file": "sheets/fox_surprised_sheet.png",
+            "x": 64,
+            "y": 64
+          }
+        },
+        "fox_surprised_idle": {
+          "png": "png/surprised/fox_surprised_idle.png",
+          "piskel": "piskel/surprised/fox_surprised_idle.piskel",
+          "kind": "idle",
+          "mouth": "O",
+          "sheet": {
+            "file": "sheets/fox_surprised_sheet.png",
+            "x": 96,
+            "y": 64
+          }
+        },
+        "fox_surprised_blink_half": {
+          "png": "png/surprised/fox_surprised_blink_half.png",
+          "piskel": "piskel/surprised/fox_surprised_blink_half.piskel",
+          "kind": "blink_half",
+          "mouth": "O",
+          "sheet": {
+            "file": "sheets/fox_surprised_sheet.png",
+            "x": 128,
+            "y": 64
+          }
+        },
+        "fox_surprised_blink_closed": {
+          "png": "png/surprised/fox_surprised_blink_closed.png",
+          "piskel": "piskel/surprised/fox_surprised_blink_closed.piskel",
+          "kind": "blink_closed",
+          "mouth": "O",
+          "sheet": {
+            "file": "sheets/fox_surprised_sheet.png",
+            "x": 160,
+            "y": 64
+          }
+        }
+      }
+    },
+    "thinking": {
+      "eyes": "thinking",
+      "idle_mouth": "hmm",
+      "files": {
+        "fox_thinking_A": {
+          "png": "png/thinking/fox_thinking_A.png",
+          "piskel": "piskel/thinking/fox_thinking_A.piskel",
+          "kind": "talk",
+          "mouth": "A",
+          "sheet": {
+            "file": "sheets/fox_thinking_sheet.png",
+            "x": 0,
+            "y": 0
+          }
+        },
+        "fox_thinking_O": {
+          "png": "png/thinking/fox_thinking_O.png",
+          "piskel": "piskel/thinking/fox_thinking_O.piskel",
+          "kind": "talk",
+          "mouth": "O",
+          "sheet": {
+            "file": "sheets/fox_thinking_sheet.png",
+            "x": 32,
+            "y": 0
+          }
+        },
+        "fox_thinking_E": {
+          "png": "png/thinking/fox_thinking_E.png",
+          "piskel": "piskel/thinking/fox_thinking_E.piskel",
+          "kind": "talk",
+          "mouth": "E",
+          "sheet": {
+            "file": "sheets/fox_thinking_sheet.png",
+            "x": 64,
+            "y": 0
+          }
+        },
+        "fox_thinking_W_R": {
+          "png": "png/thinking/fox_thinking_W_R.png",
+          "piskel": "piskel/thinking/fox_thinking_W_R.piskel",
+          "kind": "talk",
+          "mouth": "W, R",
+          "sheet": {
+            "file": "sheets/fox_thinking_sheet.png",
+            "x": 96,
+            "y": 0
+          }
+        },
+        "fox_thinking_T_S": {
+          "png": "png/thinking/fox_thinking_T_S.png",
+          "piskel": "piskel/thinking/fox_thinking_T_S.piskel",
+          "kind": "talk",
+          "mouth": "T, S",
+          "sheet": {
+            "file": "sheets/fox_thinking_sheet.png",
+            "x": 128,
+            "y": 0
+          }
+        },
+        "fox_thinking_L_N": {
+          "png": "png/thinking/fox_thinking_L_N.png",
+          "piskel": "piskel/thinking/fox_thinking_L_N.piskel",
+          "kind": "talk",
+          "mouth": "L, N",
+          "sheet": {
+            "file": "sheets/fox_thinking_sheet.png",
+            "x": 160,
+            "y": 0
+          }
+        },
+        "fox_thinking_U_Q": {
+          "png": "png/thinking/fox_thinking_U_Q.png",
+          "piskel": "piskel/thinking/fox_thinking_U_Q.piskel",
+          "kind": "talk",
+          "mouth": "U, Q",
+          "sheet": {
+            "file": "sheets/fox_thinking_sheet.png",
+            "x": 0,
+            "y": 32
+          }
+        },
+        "fox_thinking_M_B_P": {
+          "png": "png/thinking/fox_thinking_M_B_P.png",
+          "piskel": "piskel/thinking/fox_thinking_M_B_P.piskel",
+          "kind": "talk",
+          "mouth": "M, B, P",
+          "sheet": {
+            "file": "sheets/fox_thinking_sheet.png",
+            "x": 32,
+            "y": 32
+          }
+        },
+        "fox_thinking_F_V": {
+          "png": "png/thinking/fox_thinking_F_V.png",
+          "piskel": "piskel/thinking/fox_thinking_F_V.piskel",
+          "kind": "talk",
+          "mouth": "F, V",
+          "sheet": {
+            "file": "sheets/fox_thinking_sheet.png",
+            "x": 64,
+            "y": 32
+          }
+        },
+        "fox_thinking_rest": {
+          "png": "png/thinking/fox_thinking_rest.png",
+          "piskel": "piskel/thinking/fox_thinking_rest.piskel",
+          "kind": "talk",
+          "mouth": "rest",
+          "sheet": {
+            "file": "sheets/fox_thinking_sheet.png",
+            "x": 96,
+            "y": 32
+          }
+        },
+        "fox_thinking_EE_I": {
+          "png": "png/thinking/fox_thinking_EE_I.png",
+          "piskel": "piskel/thinking/fox_thinking_EE_I.piskel",
+          "kind": "talk",
+          "mouth": "EE, I",
+          "sheet": {
+            "file": "sheets/fox_thinking_sheet.png",
+            "x": 128,
+            "y": 32
+          }
+        },
+        "fox_thinking_OO": {
+          "png": "png/thinking/fox_thinking_OO.png",
+          "piskel": "piskel/thinking/fox_thinking_OO.piskel",
+          "kind": "talk",
+          "mouth": "OO",
+          "sheet": {
+            "file": "sheets/fox_thinking_sheet.png",
+            "x": 160,
+            "y": 32
+          }
+        },
+        "fox_thinking_TH": {
+          "png": "png/thinking/fox_thinking_TH.png",
+          "piskel": "piskel/thinking/fox_thinking_TH.piskel",
+          "kind": "talk",
+          "mouth": "TH",
+          "sheet": {
+            "file": "sheets/fox_thinking_sheet.png",
+            "x": 0,
+            "y": 64
+          }
+        },
+        "fox_thinking_CH_SH_J": {
+          "png": "png/thinking/fox_thinking_CH_SH_J.png",
+          "piskel": "piskel/thinking/fox_thinking_CH_SH_J.piskel",
+          "kind": "talk",
+          "mouth": "CH, SH, J",
+          "sheet": {
+            "file": "sheets/fox_thinking_sheet.png",
+            "x": 32,
+            "y": 64
+          }
+        },
+        "fox_thinking_K_G": {
+          "png": "png/thinking/fox_thinking_K_G.png",
+          "piskel": "piskel/thinking/fox_thinking_K_G.piskel",
+          "kind": "talk",
+          "mouth": "K, G",
+          "sheet": {
+            "file": "sheets/fox_thinking_sheet.png",
+            "x": 64,
+            "y": 64
+          }
+        },
+        "fox_thinking_idle": {
+          "png": "png/thinking/fox_thinking_idle.png",
+          "piskel": "piskel/thinking/fox_thinking_idle.piskel",
+          "kind": "idle",
+          "mouth": "hmm",
+          "sheet": {
+            "file": "sheets/fox_thinking_sheet.png",
+            "x": 96,
+            "y": 64
+          }
+        },
+        "fox_thinking_blink_half": {
+          "png": "png/thinking/fox_thinking_blink_half.png",
+          "piskel": "piskel/thinking/fox_thinking_blink_half.piskel",
+          "kind": "blink_half",
+          "mouth": "hmm",
+          "sheet": {
+            "file": "sheets/fox_thinking_sheet.png",
+            "x": 128,
+            "y": 64
+          }
+        },
+        "fox_thinking_blink_closed": {
+          "png": "png/thinking/fox_thinking_blink_closed.png",
+          "piskel": "piskel/thinking/fox_thinking_blink_closed.piskel",
+          "kind": "blink_closed",
+          "mouth": "hmm",
+          "sheet": {
+            "file": "sheets/fox_thinking_sheet.png",
+            "x": 160,
+            "y": 64
+          }
+        }
+      }
+    }
+  },
+  "speech_mouths": {
+    "A": "A",
+    "O": "O",
+    "E": "E",
+    "W, R": "W_R",
+    "T, S": "T_S",
+    "L, N": "L_N",
+    "U, Q": "U_Q",
+    "M, B, P": "M_B_P",
+    "F, V": "F_V",
+    "rest": "rest",
+    "EE, I": "EE_I",
+    "OO": "OO",
+    "TH": "TH",
+    "CH, SH, J": "CH_SH_J",
+    "K, G": "K_G"
+  },
+  "arpabet_to_mouth": {
+    "AA": [
+      "A"
+    ],
+    "AE": [
+      "A"
+    ],
+    "AH": [
+      "A"
+    ],
+    "AO": [
+      "O"
+    ],
+    "AW": [
+      "A",
+      "OO"
+    ],
+    "AY": [
+      "A",
+      "EE, I"
+    ],
+    "EH": [
+      "E"
+    ],
+    "ER": [
+      "W, R"
+    ],
+    "EY": [
+      "E",
+      "EE, I"
+    ],
+    "IH": [
+      "EE, I"
+    ],
+    "IY": [
+      "EE, I"
+    ],
+    "OW": [
+      "O",
+      "OO"
+    ],
+    "OY": [
+      "O",
+      "EE, I"
+    ],
+    "UH": [
+      "OO"
+    ],
+    "UW": [
+      "U, Q"
+    ],
+    "B": [
+      "M, B, P"
+    ],
+    "M": [
+      "M, B, P"
+    ],
+    "P": [
+      "M, B, P"
+    ],
+    "F": [
+      "F, V"
+    ],
+    "V": [
+      "F, V"
+    ],
+    "TH": [
+      "TH"
+    ],
+    "DH": [
+      "TH"
+    ],
+    "T": [
+      "T, S"
+    ],
+    "D": [
+      "T, S"
+    ],
+    "S": [
+      "T, S"
+    ],
+    "Z": [
+      "T, S"
+    ],
+    "L": [
+      "L, N"
+    ],
+    "N": [
+      "L, N"
+    ],
+    "K": [
+      "K, G"
+    ],
+    "G": [
+      "K, G"
+    ],
+    "NG": [
+      "K, G"
+    ],
+    "HH": [
+      "K, G"
+    ],
+    "CH": [
+      "CH, SH, J"
+    ],
+    "JH": [
+      "CH, SH, J"
+    ],
+    "SH": [
+      "CH, SH, J"
+    ],
+    "ZH": [
+      "CH, SH, J"
+    ],
+    "W": [
+      "W, R"
+    ],
+    "R": [
+      "W, R"
+    ],
+    "Y": [
+      "EE, I"
+    ]
+  },
+  "viseme15_to_mouth": {
+    "sil": "rest",
+    "PP": "M, B, P",
+    "FF": "F, V",
+    "TH": "TH",
+    "DD": "T, S",
+    "kk": "K, G",
+    "CH": "CH, SH, J",
+    "SS": "T, S",
+    "nn": "L, N",
+    "RR": "W, R",
+    "aa": "A",
+    "E": "E",
+    "ih": "EE, I",
+    "oh": "O",
+    "ou": "U, Q"
+  },
+  "blair_chart_to_mouth": {
+    "AI": "A",
+    "E": "E",
+    "O": "O",
+    "U": "U, Q",
+    "WQ": "W, R",
+    "MBP": "M, B, P",
+    "FV": "F, V",
+    "L": "L, N",
+    "etc (C D G K N R S Th Y Z)": "T, S",
+    "rest": "rest"
+  },
+  "palette": {
+    "K": "#3e1a10",
+    "X": "#1e1b1b",
+    "d": "#444341",
+    "m": "#6a6a69",
+    "l": "#8c8c8b",
+    "L": "#c8c8ca",
+    "O": "#ea7e36",
+    "Y": "#f6a76d",
+    "o": "#c8652f",
+    "q": "#9a4a22",
+    "t": "#8a5c3e",
+    "b": "#945c47",
+    "C": "#fbd39f",
+    "c": "#e7ad7c",
+    "E": "#864920",
+    "N": "#9b715e",
+    "M": "#5a1a10",
+    "T": "#e46a5c",
+    "w": "#f7f7f7",
+    "s": "#c9c6c6",
+    "R": "#cf3b35",
+    "r": "#8a2021",
+    "W": "#fbd8d2",
+    "p": "#d98c88"
+  }
+}
