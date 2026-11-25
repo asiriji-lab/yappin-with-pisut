@@ -42,6 +42,7 @@ try { Invoke-RestMethod "$ollama/api/version" | Out-Null } catch {
     do { Start-Sleep 1; try { $up = Invoke-RestMethod "$ollama/api/version" } catch { $up = $null } } until ($up)
 }
 
+Remove-Item (Join-Path $PSScriptRoot "server.ready") -ErrorAction SilentlyContinue
 $server = Start-Process $py -ArgumentList "-m", "uvicorn", "server:app", "--host", "127.0.0.1", "--port", $Port `
     -WorkingDirectory $web -NoNewWindow -PassThru
 Write-Host "Loading the handbook pages, the reranker, Whisper and Kokoro..."
@@ -62,5 +63,22 @@ try {
     Invoke-WebRequest "http://127.0.0.1:$Port/api/tts" -Method Post -ContentType "application/json" `
         -Body '{"text": "Hello."}' -UseBasicParsing | Out-Null
 } catch { Write-Host "  The voice didn't load: $((Invoke-RestMethod "http://127.0.0.1:$Port/api/health").voice_error.tts)" }
+
+# Whisper loads on its first call (VOICE_PRELOAD=0), which would land on the first question: load it now,
+# with a second of silence, after the reranker so Kokoro's import isn't disturbed.
+Write-Host "Warming up Athena's ears (Whisper $Whisper)..."
+try {
+    $pcm = New-Object byte[] 32000                  # 1 s of 16 kHz, 16-bit mono silence
+    $ms = New-Object IO.MemoryStream
+    $bw = New-Object IO.BinaryWriter($ms)
+    $bw.Write([Text.Encoding]::ASCII.GetBytes("RIFF")); $bw.Write([int](36 + $pcm.Length))
+    $bw.Write([Text.Encoding]::ASCII.GetBytes("WAVEfmt ")); $bw.Write([int]16); $bw.Write([int16]1); $bw.Write([int16]1)
+    $bw.Write([int]16000); $bw.Write([int]32000); $bw.Write([int16]2); $bw.Write([int16]16)
+    $bw.Write([Text.Encoding]::ASCII.GetBytes("data")); $bw.Write([int]$pcm.Length); $bw.Write($pcm)
+    Invoke-WebRequest "http://127.0.0.1:$Port/api/stt" -Method Post -ContentType "audio/wav" `
+        -Body $ms.ToArray() -UseBasicParsing | Out-Null
+} catch { Write-Host "  The ears didn't load: $((Invoke-RestMethod "http://127.0.0.1:$Port/api/health").voice_error.stt)" }
+
 Write-Host "Ready on http://127.0.0.1:$Port  (PROCESSOR should say 100% GPU). Now run talk.py; Ctrl+C here stops the server."
+Set-Content -Path (Join-Path $PSScriptRoot "server.ready") -Value (Get-Date -Format o)   # athena.ps1 waits for this
 Wait-Process -Id $server.Id

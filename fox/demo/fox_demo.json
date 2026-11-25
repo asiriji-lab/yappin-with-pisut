@@ -1,0 +1,735 @@
+{
+ "text": "Hi, I'm your fox. [happy] Nice to meet you! [thinking] Hmm, what should we talk about? [surprised] Oh wow, that's amazing!",
+ "fps": 12,
+ "frame_size": [
+  32,
+  32
+ ],
+ "frames": [
+  {
+   "emotion": "neutral",
+   "mouth": "idle",
+   "file": "png/neutral/fox_neutral_idle.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "idle",
+   "file": "png/neutral/fox_neutral_idle.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "idle",
+   "file": "png/neutral/fox_neutral_idle.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "blink_half",
+   "file": "png/neutral/fox_neutral_blink_half.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "blink_closed",
+   "file": "png/neutral/fox_neutral_blink_closed.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "blink_half",
+   "file": "png/neutral/fox_neutral_blink_half.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "K, G",
+   "file": "png/neutral/fox_neutral_K_G.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "A",
+   "file": "png/neutral/fox_neutral_A.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "A",
+   "file": "png/neutral/fox_neutral_A.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "EE, I",
+   "file": "png/neutral/fox_neutral_EE_I.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "idle",
+   "file": "png/neutral/fox_neutral_idle.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "idle",
+   "file": "png/neutral/fox_neutral_idle.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "idle",
+   "file": "png/neutral/fox_neutral_idle.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "A",
+   "file": "png/neutral/fox_neutral_A.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "A",
+   "file": "png/neutral/fox_neutral_A.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "EE, I",
+   "file": "png/neutral/fox_neutral_EE_I.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "M, B, P",
+   "file": "png/neutral/fox_neutral_M_B_P.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "EE, I",
+   "file": "png/neutral/fox_neutral_EE_I.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "O",
+   "file": "png/neutral/fox_neutral_O.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "O",
+   "file": "png/neutral/fox_neutral_O.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "O",
+   "file": "png/neutral/fox_neutral_O.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "W, R",
+   "file": "png/neutral/fox_neutral_W_R.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "F, V",
+   "file": "png/neutral/fox_neutral_F_V.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "A",
+   "file": "png/neutral/fox_neutral_A.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "A",
+   "file": "png/neutral/fox_neutral_A.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "A",
+   "file": "png/neutral/fox_neutral_A.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "K, G",
+   "file": "png/neutral/fox_neutral_K_G.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "T, S",
+   "file": "png/neutral/fox_neutral_T_S.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "idle",
+   "file": "png/neutral/fox_neutral_idle.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "idle",
+   "file": "png/neutral/fox_neutral_idle.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "idle",
+   "file": "png/neutral/fox_neutral_idle.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "blink_half",
+   "file": "png/neutral/fox_neutral_blink_half.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "blink_closed",
+   "file": "png/neutral/fox_neutral_blink_closed.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "blink_half",
+   "file": "png/neutral/fox_neutral_blink_half.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "idle",
+   "file": "png/neutral/fox_neutral_idle.png"
+  },
+  {
+   "emotion": "neutral",
+   "mouth": "idle",
+   "file": "png/neutral/fox_neutral_idle.png"
+  },
+  {
+   "emotion": "happy",
+   "mouth": "idle",
+   "file": "png/happy/fox_happy_idle.png"
+  },
+  {
+   "emotion": "happy",
+   "mouth": "L, N",
+   "file": "png/happy/fox_happy_L_N.png"
+  },
+  {
+   "emotion": "happy",
+   "mouth": "A",
+   "file": "png/happy/fox_happy_A.png"
+  },
+  {
+   "emotion": "happy",
+   "mouth": "A",
+   "file": "png/happy/fox_happy_A.png"
+  },
+  {
+   "emotion": "happy",
+   "mouth": "EE, I",
+   "file": "png/happy/fox_happy_EE_I.png"
+  },
+  {
+   "emotion": "happy",
+   "mouth": "T, S",
+   "file": "png/happy/fox_happy_T_S.png"
+  },
+  {
+   "emotion": "happy",
+   "mouth": "T, S",
+   "file": "png/happy/fox_happy_T_S.png"
+  },
+  {
+   "emotion": "happy",
+   "mouth": "U, Q",
+   "file": "png/happy/fox_happy_U_Q.png"
+  },
+  {
+   "emotion": "happy",
+   "mouth": "U, Q",
+   "file": "png/happy/fox_happy_U_Q.png"
+  },
+  {
+   "emotion": "happy",
+   "mouth": "U, Q",
+   "file": "png/happy/fox_happy_U_Q.png"
+  },
+  {
+   "emotion": "happy",
+   "mouth": "M, B, P",
+   "file": "png/happy/fox_happy_M_B_P.png"
+  },
+  {
+   "emotion": "happy",
+   "mouth": "EE, I",
+   "file": "png/happy/fox_happy_EE_I.png"
+  },
+  {
+   "emotion": "happy",
+   "mouth": "EE, I",
+   "file": "png/happy/fox_happy_EE_I.png"
+  },
+  {
+   "emotion": "happy",
+   "mouth": "EE, I",
+   "file": "png/happy/fox_happy_EE_I.png"
+  },
+  {
+   "emotion": "happy",
+   "mouth": "T, S",
+   "file": "png/happy/fox_happy_T_S.png"
+  },
+  {
+   "emotion": "happy",
+   "mouth": "EE, I",
+   "file": "png/happy/fox_happy_EE_I.png"
+  },
+  {
+   "emotion": "happy",
+   "mouth": "U, Q",
+   "file": "png/happy/fox_happy_U_Q.png"
+  },
+  {
+   "emotion": "happy",
+   "mouth": "U, Q",
+   "file": "png/happy/fox_happy_U_Q.png"
+  },
+  {
+   "emotion": "happy",
+   "mouth": "U, Q",
+   "file": "png/happy/fox_happy_U_Q.png"
+  },
+  {
+   "emotion": "happy",
+   "mouth": "idle",
+   "file": "png/happy/fox_happy_idle.png"
+  },
+  {
+   "emotion": "happy",
+   "mouth": "idle",
+   "file": "png/happy/fox_happy_idle.png"
+  },
+  {
+   "emotion": "happy",
+   "mouth": "idle",
+   "file": "png/happy/fox_happy_idle.png"
+  },
+  {
+   "emotion": "happy",
+   "mouth": "idle",
+   "file": "png/happy/fox_happy_idle.png"
+  },
+  {
+   "emotion": "happy",
+   "mouth": "idle",
+   "file": "png/happy/fox_happy_idle.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "idle",
+   "file": "png/thinking/fox_thinking_idle.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "blink_half",
+   "file": "png/thinking/fox_thinking_blink_half.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "blink_closed",
+   "file": "png/thinking/fox_thinking_blink_closed.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "blink_half",
+   "file": "png/thinking/fox_thinking_blink_half.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "K, G",
+   "file": "png/thinking/fox_thinking_K_G.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "M, B, P",
+   "file": "png/thinking/fox_thinking_M_B_P.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "idle",
+   "file": "png/thinking/fox_thinking_idle.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "idle",
+   "file": "png/thinking/fox_thinking_idle.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "idle",
+   "file": "png/thinking/fox_thinking_idle.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "W, R",
+   "file": "png/thinking/fox_thinking_W_R.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "A",
+   "file": "png/thinking/fox_thinking_A.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "A",
+   "file": "png/thinking/fox_thinking_A.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "A",
+   "file": "png/thinking/fox_thinking_A.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "T, S",
+   "file": "png/thinking/fox_thinking_T_S.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "CH, SH, J",
+   "file": "png/thinking/fox_thinking_CH_SH_J.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "OO",
+   "file": "png/thinking/fox_thinking_OO.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "OO",
+   "file": "png/thinking/fox_thinking_OO.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "OO",
+   "file": "png/thinking/fox_thinking_OO.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "T, S",
+   "file": "png/thinking/fox_thinking_T_S.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "W, R",
+   "file": "png/thinking/fox_thinking_W_R.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "EE, I",
+   "file": "png/thinking/fox_thinking_EE_I.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "EE, I",
+   "file": "png/thinking/fox_thinking_EE_I.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "EE, I",
+   "file": "png/thinking/fox_thinking_EE_I.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "T, S",
+   "file": "png/thinking/fox_thinking_T_S.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "O",
+   "file": "png/thinking/fox_thinking_O.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "O",
+   "file": "png/thinking/fox_thinking_O.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "O",
+   "file": "png/thinking/fox_thinking_O.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "K, G",
+   "file": "png/thinking/fox_thinking_K_G.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "A",
+   "file": "png/thinking/fox_thinking_A.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "A",
+   "file": "png/thinking/fox_thinking_A.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "M, B, P",
+   "file": "png/thinking/fox_thinking_M_B_P.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "A",
+   "file": "png/thinking/fox_thinking_A.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "A",
+   "file": "png/thinking/fox_thinking_A.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "OO",
+   "file": "png/thinking/fox_thinking_OO.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "T, S",
+   "file": "png/thinking/fox_thinking_T_S.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "idle",
+   "file": "png/thinking/fox_thinking_idle.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "idle",
+   "file": "png/thinking/fox_thinking_idle.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "idle",
+   "file": "png/thinking/fox_thinking_idle.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "blink_half",
+   "file": "png/thinking/fox_thinking_blink_half.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "blink_closed",
+   "file": "png/thinking/fox_thinking_blink_closed.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "blink_half",
+   "file": "png/thinking/fox_thinking_blink_half.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "idle",
+   "file": "png/thinking/fox_thinking_idle.png"
+  },
+  {
+   "emotion": "thinking",
+   "mouth": "idle",
+   "file": "png/thinking/fox_thinking_idle.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "idle",
+   "file": "png/surprised/fox_surprised_idle.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "blink_half",
+   "file": "png/surprised/fox_surprised_blink_half.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "blink_closed",
+   "file": "png/surprised/fox_surprised_blink_closed.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "blink_half",
+   "file": "png/surprised/fox_surprised_blink_half.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "O",
+   "file": "png/surprised/fox_surprised_O.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "O",
+   "file": "png/surprised/fox_surprised_O.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "OO",
+   "file": "png/surprised/fox_surprised_OO.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "W, R",
+   "file": "png/surprised/fox_surprised_W_R.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "A",
+   "file": "png/surprised/fox_surprised_A.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "A",
+   "file": "png/surprised/fox_surprised_A.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "OO",
+   "file": "png/surprised/fox_surprised_OO.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "idle",
+   "file": "png/surprised/fox_surprised_idle.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "idle",
+   "file": "png/surprised/fox_surprised_idle.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "idle",
+   "file": "png/surprised/fox_surprised_idle.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "TH",
+   "file": "png/surprised/fox_surprised_TH.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "A",
+   "file": "png/surprised/fox_surprised_A.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "A",
+   "file": "png/surprised/fox_surprised_A.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "A",
+   "file": "png/surprised/fox_surprised_A.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "T, S",
+   "file": "png/surprised/fox_surprised_T_S.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "T, S",
+   "file": "png/surprised/fox_surprised_T_S.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "A",
+   "file": "png/surprised/fox_surprised_A.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "A",
+   "file": "png/surprised/fox_surprised_A.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "M, B, P",
+   "file": "png/surprised/fox_surprised_M_B_P.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "E",
+   "file": "png/surprised/fox_surprised_E.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "E",
+   "file": "png/surprised/fox_surprised_E.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "EE, I",
+   "file": "png/surprised/fox_surprised_EE_I.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "T, S",
+   "file": "png/surprised/fox_surprised_T_S.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "EE, I",
+   "file": "png/surprised/fox_surprised_EE_I.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "EE, I",
+   "file": "png/surprised/fox_surprised_EE_I.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "K, G",
+   "file": "png/surprised/fox_surprised_K_G.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "idle",
+   "file": "png/surprised/fox_surprised_idle.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "idle",
+   "file": "png/surprised/fox_surprised_idle.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "idle",
+   "file": "png/surprised/fox_surprised_idle.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "blink_half",
+   "file": "png/surprised/fox_surprised_blink_half.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "blink_closed",
+   "file": "png/surprised/fox_surprised_blink_closed.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "blink_half",
+   "file": "png/surprised/fox_surprised_blink_half.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "idle",
+   "file": "png/surprised/fox_surprised_idle.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "idle",
+   "file": "png/surprised/fox_surprised_idle.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "idle",
+   "file": "png/surprised/fox_surprised_idle.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "idle",
+   "file": "png/surprised/fox_surprised_idle.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "idle",
+   "file": "png/surprised/fox_surprised_idle.png"
+  },
+  {
+   "emotion": "surprised",
+   "mouth": "idle",
+   "file": "png/surprised/fox_surprised_idle.png"
+  }
+ ]
+}
